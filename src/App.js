@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import Tickets from './components/Tickets';
 import Seats from './components/Seats';
@@ -9,20 +9,22 @@ import Paying from './components/Paying';
 import Verify from './components/Verify';
 import SuccessOrder from './components/SuccessOrder';
 
+import links from './data/links';
+
 function App() {
   return (
     <div>
-      <Router>
+      <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/tickets" element={<Tickets />} />
-          <Route exact path="/seats" element={<Seats />} />
-          <Route exact path="/passengers" element={<Passengers />} />
-          <Route exact path="/paying" element={<Paying />} />
-          <Route exact path="/verify" element={<Verify />} />
-          <Route exact path="/successOrder" element={<SuccessOrder />} />
+          <Route exact path={links.main} element={<HomePage />} />
+          <Route exact path={links.tickets} element={<Tickets />} />
+          <Route exact path={links.seats} element={<Seats />} />
+          <Route exact path={links.passengers} element={<Passengers />} />
+          <Route exact path={links.paying} element={<Paying />} />
+          <Route exact path={links.verify} element={<Verify />} />
+          <Route exact path={links.successOrder} element={<SuccessOrder />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

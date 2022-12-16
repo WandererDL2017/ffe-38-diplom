@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/dmixeot0pnq31alc?svg=true)](https://ci.appveyor.com/project/WandererDL2017/ffe-38-diplom)
+
 # Система бронирования ЖД билетов (дипломная работа к профессии frontend-разработчик)
 
 ## Описание проекта

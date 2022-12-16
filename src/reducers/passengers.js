@@ -49,18 +49,6 @@ export default function passengersReducer(state = initialState, action) {
           complete: false,
         }],
       };
-
-    case CHANGE_PASSENGER_FIELD:
-      const { name, value, passNumber } = action.payload;
-      const index = passengers.findIndex((item) => item.number === passNumber);
-      if (index !== -1) {
-        passengers[index][name] = value;
-        passengers[index].complete = false;
-        return {
-          ...state,
-          passengers: [...passengers],
-        };
-      }
     case SET_PASSENGER_COMPLETE:
       const { idx } = action.payload;
       passengers[idx].complete = true;
@@ -76,6 +64,17 @@ export default function passengersReducer(state = initialState, action) {
         ...state,
         passengers: [...passengers],
       };
+    case CHANGE_PASSENGER_FIELD:
+      const { name, value, passNumber } = action.payload;
+      const index = passengers.findIndex((item) => item.number === passNumber);
+      if (index !== -1) {
+        passengers[index][name] = value;
+        passengers[index].complete = false;
+        return {
+          ...state,
+          passengers: [...passengers],
+        };
+      }
     case CLEAR_PASSENGERS:
       return initialState;
     default:

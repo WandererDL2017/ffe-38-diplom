@@ -1,0 +1,61 @@
+.TrainDetails__routeContainer {
+  display: flex;
+  background: #F7F6F6;
+  align-items: center;
+}
+
+.TrainDetails__routeTrainPic {
+  width: 30px;
+  height: 30px;
+  background-image: url('../../img/train/train.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 25px;
+}
+
+.TrainDetails__routePath {
+  margin: 15px 20px 15px 0;
+}
+
+.TrainDetails__routeName {
+  font-weight: 700;
+}
+
+.TrainDetails__routeItinerary {
+  font-size: 0.67em;
+  line-height: 0.89em;
+  color: #292929;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+
+.TrainDetails__routeDetails {
+  display: flex;
+  margin-right: 20px;
+  width: 50%;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding: 30px;
+}
+
+.TrainDetails__duration {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  padding-left: 30px;
+}
+
+.TrainDetails__watch {
+  width: 30px;
+  height: 30px;
+  background-image: url('../../img/train/watch.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.TrainDetails__durationTime {
+  font-size: 0.75em;
+}

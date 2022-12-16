@@ -1,0 +1,142 @@
+.Routes__routeContainer {
+  display: flex;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 47px;
+}
+
+.Routes__routeContainerLeftSide {
+  width: 20%;
+  background-color: #E4E0E9;
+  padding: 30px 18px 30px 26px;
+}
+
+.Routes__routeTrainPicBorder {
+  display: flex;
+  width: 86px;
+  height: 86px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.Routes__routeTrainPic {
+  width: 44px;
+  height: 52px;
+  background-image: url('../../img/routes/routeTrain.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: auto;
+}
+
+.Routes__routeName {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  color: #3E3C41;
+  margin-top: 17px;
+}
+
+.Routes__routeItinerary {
+  font-size: 0.67em;
+  line-height: 0.89em;
+  color: #292929;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+
+.Routes__routeItineraryFromBox {
+  display: flex;
+}
+
+.Routes__routeItineraryAroow {
+  width: 13px;
+  height: 10px;
+  background-image: url('../../img/routes/routeArrow1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 5px;
+}
+
+.Routes__routeDetails {
+  display: flex;
+  width: 80%;
+}
+
+.Routes__timing {
+  width: 60%;
+  padding: 54px 40px 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 1px dashed #E5E5E5;
+}
+
+.Routes__timingRow {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.Routes__timingTime {
+  font-weight: 700;
+  font-size: 1em;
+  color: #000000;
+}
+
+.Routes__timingCity {
+  font-size: 0.7em;
+  color: #292929;
+  text-transform: capitalize;
+}
+
+.Routes__timingStation {
+  font-size: 0.67em;
+  color: #928F94;
+  text-transform: capitalize;
+}
+
+.Routes__duration {
+  margin: 0 40px;
+}
+
+.Routes__durationTime {
+  font-size: 0.75em;
+  color: #C4C4C4;
+}
+
+.Routes__yellowArrowPic {
+  width: 30px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+
+.Routes__yellowArrowPic-trainStart {
+  background-image: url('../../img/routes/start.png');
+}
+
+.Routes__yellowArrowPic-trainEnd {
+  background-image: url('../../img/routes/end.png');
+}
+
+.Routes__seats {
+  width: 40%;
+  padding: 48px 20px 24px 30px;
+}
+
+.Routes__servicesPics {
+  width: 92px;
+  height: 20px;  
+  margin: 35px 0 18px auto; 
+  background-position: center;
+  background-image: url('../../img/serviceGroup.png');
+}
+
+.Routes__btn {
+  color: #FFFFFF;
+  padding: 6px 15px;
+}

@@ -1,0 +1,35 @@
+.HeaderMain {
+  background-image: url('../../../img/mainHeaderTrain.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.HeaderMain__container {
+  display: flex;
+  padding: 253px 16rem 0 16rem;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.5em;
+  color: #E5E5E5; 
+  padding: 15px 16rem;
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.slogan {
+  font-weight: 100;
+  font-size: 3em;
+  color: #FFFFFF;
+  margin-right: 5%;
+}
+
+.bold {
+  font-family: 'Roboto';
+  font-weight: 700;
+}

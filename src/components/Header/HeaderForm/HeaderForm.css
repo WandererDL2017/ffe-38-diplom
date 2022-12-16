@@ -1,0 +1,162 @@
+.HeaderMain__form {
+  display: block;
+  box-sizing: border-box;
+  width: 45.5rem;
+  height: 36rem;
+  background: rgba(41, 41, 41, 0.8);
+  padding: 79px 24px 52px 21px;
+}
+
+.SecondaryHeader__form {
+  width: 93rem;
+  background: rgba(41, 41, 41, 0.8);
+  padding: 28px 42px 76px;
+  margin: 111px 16rem 0;
+}
+
+.inTwoLines {
+  width: 100%;
+}
+
+.inOneLine {
+  display: flex;
+}
+
+
+
+.formDiscription {
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 2.2em;
+  color: #FFFFFF;
+}
+
+.inputGroup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5em;
+}
+
+.directionInput, .dateInput {
+  position: relative;
+}
+
+.directionInput::before, 
+.dateInput::before {
+  content: '';
+  width: 0.8em;
+  height: 1.25em;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  right: 15px;
+  top: 20%;
+}
+
+.directionInput::before {
+  background-image: url(../../../img/location.svg);
+}
+
+.dateInput::before {
+  background-image: url(../../../img/calendar.svg);
+  z-index: 99;
+}
+
+.inOneLine .dateInput {
+  margin-left: 24px;
+}
+
+.dateInput:nth-child(n + 2) {
+  margin-left: 29px;
+}
+
+div.react-datepicker__header {
+  background-color: #FFFFFF;
+  padding: 15px 0;
+  text-transform: capitalize;
+}
+
+span.react-datepicker__navigation-icon {
+  top: 7px;
+}
+
+span.react-datepicker__navigation-icon::before {
+  height: 4px;
+  width: 4px;
+  border-color: #000000;
+}
+
+div.react-datepicker__day--outside-month {
+  color: #c0bec2;
+}
+
+div.react-datepicker__day--selected {
+  color: #000000;
+  background: rgba(255, 168, 0, 0.31);
+  border: 2px solid #FFA800;
+  border-radius: 5px;
+}
+
+.formControl {
+  width: 325px;
+  height: 60px;
+  font-family: 'Roboto';
+  color: #292929;
+  font-weight: 400;
+  font-size: 0.75em;
+  text-transform: capitalize;
+  background: #FFFFFF;
+  border-radius: 3px;
+  padding: 14px 35px 8px 15px;
+  outline: none;
+}
+
+.formControlInTripTools {
+  padding: 0.8em 0.4em 0.45em 0.875em;
+}
+
+.swapDirection {
+  width: 1em;
+  height: 1em;
+  background-image: url(../../../img/swap.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0.3em 2.5px;
+}
+
+.directionsList {
+  width: 100%;
+  position: absolute;
+  list-style-type: none;
+  padding: 14px 22px;
+  margin-top: 5px;
+  background: #F5F4F6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;    
+  z-index: 1; 
+}
+
+.directionsListItem {
+  font-weight: 400;
+  font-size: 0.75em;
+  line-height: 1.3em;
+  font-variant: small-caps;
+  color: #292929;
+  cursor: pointer;
+}
+
+.SecondaryHeader__form .inOneLine .dateInput {
+  margin-left: 35px;
+}
+
+.SecondaryHeader__form .inOneLine>div:nth-child(2) .formDiscription{
+  padding-left: 35px;
+} 
+
+.SecondaryHeader__form .swapDirection {
+  margin-left: 7px;
+  margin-right: 7px;
+}

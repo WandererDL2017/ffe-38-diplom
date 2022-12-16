@@ -1,0 +1,69 @@
+.Loading__mainContainer {
+  width: 100%;
+  height: 774px;
+  background: #3E3C41;
+  padding: 260px 0 0;
+}
+
+.Loading__text {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #928F94;
+  margin-bottom: 100px;
+}
+
+@keyframes goTrain {
+  0% {
+      left: 0; 
+      opacity: 0;
+      width: 200px; 
+  }
+  50% {
+      left: calc(50% - 140px); 
+      opacity: 1;
+      width: 286.83px; 
+  }
+  100% {
+      left: 100%; 
+      opacity: 0; 
+      width: 200px;
+  }
+}
+
+@keyframes goLine {
+  0% {
+      left: 100%; 
+      opacity: 0; 
+      width: 180px;
+      height: 1px;
+  }
+  50% {
+      left: calc(50% - 150px); 
+      opacity: 1;  
+      width: 300px;
+      height: 2px;
+  }
+  100% {
+      left: 0; 
+      opacity: 0; 
+      width: 180px;
+      height: 1px;
+  }
+}
+
+.Loading__train {
+  animation: goTrain 4s infinite normal;
+  position: relative;
+  height: 15.46px;
+  background-image: url('../../img/trainLoading.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 8px;
+}
+
+.Loading__line {
+  animation: goLine 4s infinite normal;
+  position: relative;
+  background-color: #FFCA62;
+}

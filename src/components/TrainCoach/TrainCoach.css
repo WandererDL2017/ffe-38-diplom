@@ -1,0 +1,147 @@
+.TrainCoach__coachDetails {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 55px;
+}
+
+.TrainCoach__coachDetails-coach {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFD98F;
+  padding: 30px 50px 0 30px;
+}
+
+.TrainCoach__coachDetails-number {
+  font-weight: 700;
+  font-size: 3em;
+  color: #292929;
+}
+
+.TrainCoach__coachDetails-itemHeader {
+  display: flex;
+  font-size: 0.75em;
+  color: #928F94;
+  margin: 30px 0 20px 0;
+}
+
+.TrainCoach__coachDetails-itemHeaderText {
+  color: #C4C4C4;
+  margin-left: 10px;
+}
+
+.TrainCoach__coachDetails-itemNumber {
+  margin-left: 10px;
+  color: #292929;
+}
+
+.TrainCoach__coachDetails-itemText {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.TrainCoach__coachDetails-itemTextQuantity {
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.TrainCoach__coachDetails-price {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.TrainCoach__coachDetails-servises {
+  display: flex;
+}
+
+.TrainCoach__coachDetails-serviceBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 34.11px;
+  border: 1px solid #292929;
+  border-radius: 5px;
+}
+
+.TrainCoach__coachDetails-serviceBox_active {
+  background: #FDB935;
+  border: none;
+}
+
+.TrainCoach__coachDetails-serviceBox:nth-child(n + 2) {
+  margin-left: 12px;
+}
+
+.TrainCoach__coachDetails-serviceBox:hover {
+  background: #FFA800;
+}
+
+.serviceBox_notActive {
+  background: #FCDC9D;
+  border: none;
+  border-radius: 5px;
+}
+
+.TrainCoach__coachDetails-servicePic, 
+.TrainCoach__coachDetails-servicePic_notActive {
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.TrainCoach__coachDetails-servicePic_notActive {
+  opacity: 0.2;
+}
+
+.servicePic_air_conditioning {
+  background-image: url('../../img/services/air_conditioning_black.png');
+}
+
+.servicePic_air_conditioning_active {
+  background-image: url('../../img/services/air_conditioning_white.png');
+}
+
+.servicePic_wifi {
+  background-image: url('../../img/services/wifi_black.png');
+}
+
+.servicePic_wifi_active {
+  background-image: url('../../img/services/wifi_white.png');
+}
+
+.servicePic_linen {
+  background-image: url('../../img/services/linens_black.png');
+}
+
+.servicePic_linen_active {
+  background-image: url('../../img/services/linens_white.png');
+}
+
+.servicePic_food {
+  background-image: url('../../img/services/food_black.png');
+}
+
+.servicePic_food_active {
+  background-image: url('../../img/services/food_white.png');
+}
+
+.tipBox_services {
+  font-size: 0.67em;
+  padding: 8px 10px;
+}
+
+.TrainCoach__lookingPeople {
+  width: 199px;
+  height: 72px;
+  font-size: 0.67em;
+  background: #F3F3F3;
+  border-radius: 5px;
+  padding: 15px;
+  margin-right: 50px;
+  margin-left: auto;
+}

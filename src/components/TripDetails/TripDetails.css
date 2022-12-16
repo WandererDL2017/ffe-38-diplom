@@ -1,0 +1,105 @@
+.TripDetails {
+  width: 360px;
+  color: #E5E5E5;
+}
+
+.TripDetails .formDiscription {
+  color: #E5E5E5;
+}
+
+.TripDetails__headerText {
+  color: #FFFFFF;
+  font-size: 0.75em;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+.TripDetails__sectionRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75em;
+  margin-bottom: 20px;
+}
+
+.TripDetails__sectionRow:first-child {
+  margin-top: 40px;
+}
+
+.TripDetails__trainNumber {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.33em;
+}
+
+.TripDetails__trainName {
+  color: #FFFFFF;
+  font-size: 0.89em;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: right;
+}
+
+.TripDetails__duration {
+  justify-content: center;
+  margin: 45px 0 5px;
+}
+
+.TripDetails__sectionRowBoxRight {
+  text-align: right;
+}
+
+.TripDetails__trainTime {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.33em;
+}
+
+.TripDetails__date {
+  color: #928F94;
+}
+
+.TripDetails__destination {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.TripDetails__destinationStation {
+  color: #928F94;
+}
+
+.tripToolsSectionHeaderPicPassenger {
+  background-image: url('../../img/passenger.png');
+}
+
+.TripDetails__sectionRowPart {
+  display: flex;
+  align-items: center;
+}
+
+.TripDetails__passQuantity {
+  margin-right: 5px;
+}
+
+.TripDetails__trainPrice {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.TripDetails__sectionTotalPrice {
+  align-items: baseline;
+}
+
+.TripDetails__trainTotalPrice {
+  font-weight: 700;
+  font-size: 2em;
+  color: #FFA800;
+  margin-right: 5px;
+}
+
+.TripDetails__totalPriceСurrency {
+  width: 26px;
+  height: 32px;
+  background-image: url('../../img/rubWhiter.png');
+}

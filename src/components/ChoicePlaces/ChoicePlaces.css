@@ -1,0 +1,144 @@
+.СhoicePlaces {
+  position: relative;
+  width: 961px;
+  padding-bottom: 80px;
+}
+
+.СhoicePlaces__coachNumber {
+  position: absolute;
+  top: 0;
+  left: calc((100% - 921px)/2 + 40px);
+  width: 30px;
+  height: 23px;
+  color: #FFFFFF;
+  font-size: 0.55em;
+  font-weight: 700;
+  text-align: center;
+  background-color: #292929;
+  padding-top: 5px;
+}
+
+.СhoicePlaces__pic {
+  width: 921px;
+  height: 145px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+} 
+
+.СhoicePlaces__pic-123 {
+  background-image: url('../../img/train/123class.png');
+}
+
+.СhoicePlaces__pic-4 {
+  background-image: url('../../img/train/4class.png');
+}
+
+.СhoicePlaces__placesContainer, 
+.СhoicePlaces__placesContainerThird, 
+.СhoicePlaces__placesSecondContainerForFourth {
+  position: absolute;
+  top: 28px;
+  left: calc((100% - 921px)/2 + 134px);
+  display: flex;
+  z-index: 99;
+}
+
+.СhoicePlaces__placesContainerThird {
+  top: 113px;
+}
+
+.СhoicePlaces__placesSecondContainerForFourth {
+  top: 88px;
+}
+
+.СhoicePlaces__placesBox {
+  width: 84.7px;
+  height: 59px;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.СhoicePlaces__placesBox:nth-child(n + 2), 
+.СhoicePlaces__placesBoxThird:nth-child(n + 2), 
+.СhoicePlaces__placesBoxFourth:nth-child(n + 2) {
+  margin-left: 5px;
+}
+
+.СhoicePlaces__placesBoxThird {
+  display: flex;
+}
+
+.СhoicePlaces__placesBoxFourth {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 39px;
+  height: 48px;
+  align-items: flex-end;
+}
+
+.СhoicePlaces__place, 
+.СhoicePlaces__placeThird, 
+.СhoicePlaces__placeFirst, 
+.СhoicePlaces__placeFourth  {
+  width: 26px;
+  height: 29px;
+  font-size: 0.55em;
+  font-weight: 700;
+  text-align: center;
+  background-color: #F3F3F3;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.СhoicePlaces__placeFirst {
+  width: 26px;
+  height: 58px;
+  padding-top: 35px;
+}
+
+.СhoicePlaces__placeThird {
+  height: 24px;
+  width: 42.4px;
+}
+
+.СhoicePlaces__placeFourth {
+  width: 29px;
+  height: 19px;
+  margin-bottom: 3px;
+  padding-top: 2px;
+}
+
+.СhoicePlaces__placeOccupied {
+  color: #FFFFFF;
+  background-color: #C4C4C4;
+}
+
+.СhoicePlaces__placeChoosen {
+  padding-top: 3px;
+  border: 3px solid #FFA800;
+}
+
+.СhoicePlaces__placeChoosenFirst {
+  border: 3px solid #FFA800;
+}
+
+.СhoicePlaces__placeChoosenFourth {
+  padding-top: 0;
+  border: 3px solid #FFA800;
+}
+
+.СhoicePlaces__totalPrice {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: 700;
+  color: #FFA800;
+  padding: 20px 28px 0 0;
+}
+
+.СhoicePlaces__totalPriceFigure {
+  margin-right: 5px;
+}

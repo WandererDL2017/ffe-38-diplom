@@ -1,0 +1,82 @@
+.HowItWorks__section {
+  color: #FFFFFF;
+  background-image: url('../../../img/howItWorks/howItWorks.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 60px 16rem;
+}
+
+.HowItWorks__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.HowItWorks__header {
+  font-weight: 500;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.HowItWorks__link {
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 15px 70px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.HowItWorks__link:hover {
+  color: #2D2B2F;
+  background: #FFCA62;
+}
+
+.HowItWorks__link:active {
+  color: #2D2B2F;
+  background: #FFFFFF;
+}
+
+.HowItWorks__benefitsBox {
+  display: flex;
+  justify-content: center;
+  padding: 6.69rem 0 5.75rem 8.63rem;
+}
+
+.HowItWorks__benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 137px;
+}
+
+.HowItWorks__benefitPic {
+  width: 5.625em;
+  height: 5.625em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 0.6em solid rgba(229, 229, 229, 0.2);
+  border-radius: 50%;
+  margin-bottom: 1.4em;
+}
+
+.HowItWorks__benefitFirst {
+  background-image: url('../../../img/howItWorks/PC.png');
+}
+
+.HowItWorks__benefitSecond {
+  background-image: url('../../../img/howItWorks/houses.png');
+}
+
+.HowItWorks__benefitThird {
+  background-image: url('../../../img/howItWorks/world.png');
+}
+
+.HowItWorks__benefitDiscription {
+  width: 226px;
+  text-align: center;
+}

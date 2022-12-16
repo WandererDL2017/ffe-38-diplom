@@ -1,0 +1,15 @@
+.Menu {
+  padding: 26px 16rem;
+  background: #292929;
+}
+
+.Menu__item {
+  font-weight: 300;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.Menu__item:nth-child(n + 2) {
+  margin-left: 4%;
+}

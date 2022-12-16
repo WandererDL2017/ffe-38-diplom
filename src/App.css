@@ -1,38 +1,213 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  width: auto;
+  height: auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.visually-hidden, 
+.react-datepicker__day-names {
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*buttons*/
+
+.btnBox {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: flex-end;
+}
+
+.btnBox_popup {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 30px 0 23px;
 }
 
-.App-link {
-  color: #61dafb;
+.yellowBtn {
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  background-color: #FFA800;
+  border: none;
+  border-radius: 5px;
+  padding: 16px 0;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.yellowBtn:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.yellowBtn:active {
+  color: #FFA800;
+  background: #FFFFFF;
+  border: 1px solid #FFA800;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.yellowBtn:disabled {
+  background: #928F94;
+}
+
+.searchBtn {
+  color: #292929;
+  width: 20.3125rem;
+}
+
+.seatsBtn {
+  width: 222px;
+  height: 60px;
+  margin-top: 70px;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.subscriptionButton {
+  font-size: 1em;
+  color: #FFFFFF;
+  margin-left: 1.375em;
+  padding: 0.7em 15px;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  background-color: #2D2B2F;
+}
+
+.subscriptionButton:hover {
+  color: #2D2B2F;
+  background: #FFCA62;
+  border: 1px solid #FFCA62;
+}
+
+.subscriptionButton:active {
+  color: #2D2B2F;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+.whiteBtn {
+  font-size: 1em;
+  font-weight: 700;
+  border: 1px solid #292929;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  padding: 15px 34px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.whiteBtn:hover {
+  color: #FFA800;
+  border-color: #FFA800;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.whiteBtn:active {
+  color: #292929;
+  border-color: #FFA800;
+  background: #FFA800;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* react datepicker */
+.react-datepicker__month-container {
+  width: 18.44rem;
+  height: 15rem;
+}
+
+.react-datepicker__current-month {
+  font-size: 24px;
+}
+
+.react-datepicker__week {
+  font-size: 20px;
+}
+
+/* input range */
+
+.input-range__label-container {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E5E5E5;
+}
+
+/* seatsPriceСurrency */
+
+.seatsPriceСurrency {
+  width: 20px;
+  height: 1em;
+  background-image: url('../src/img/rub.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* mainContainer */
+
+.mainContainer {
+  display: flex;
+  background: #F7F5F9;
+  padding-top: 95px;
+  padding-bottom: 193px;
+  padding-left: 16rem;
+  margin: auto;
+}
+
+.mainContainer__error {
+  width: 100%;
+  height: 774px;
+  background: #3E3C41;
+  padding: 260px 0 0;
+}
+
+.leftPanel {
+  width: 360px;
+}
+
+.rightPanel {
+  width: 100%;
+  max-width: 959px;
+  margin-left: 5.625rem;
+}
+
+.leftPanel .formControl {
+  width: 18.44rem;
+}
+
+/* customRadio */
+
+.customRadio, 
+.customRadio_checked {
+  width: 28px;
+  height: 28px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.customRadio {
+  border: 1px solid #928F94;
+}
+
+.customRadio_red {
+  border: 1px solid rgba(255, 61, 0, 0.76);
+}
+
+.customRadio_checked {
+  border: 1px solid #FFA800;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../src/img/checked.png');
 }

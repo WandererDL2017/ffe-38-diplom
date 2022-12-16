@@ -1,0 +1,64 @@
+.RoutesPages {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 142px;
+}
+
+.RoutesPages__boxArrow {
+  display: flex;
+  width: 84px;
+  height: 75px;
+  border: 2px solid #C4C4C4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.RoutesPages__boxArrow:first-child {
+  margin-right: 35px;
+}
+
+.RoutesPages__leftArrow, 
+.RoutesPages__rightArrow {
+  width: 18px;
+  height: 29px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+
+.RoutesPages__leftArrow {
+  background-image: url('../../img/routes/pageLeft.png');
+}
+
+.RoutesPages__rightArrow {
+  background-image: url('../../img/routes/pageRight.png');
+}
+
+.RoutesPages__number {
+  font-weight: 700;
+  font-size: 1.25em;
+  text-align: center;
+  color: #928F94;
+  width: 84px;
+  height: 75px;
+  padding: 20px 0;
+  margin-right: 35px;
+  border: 2px solid #C4C4C4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.RoutesPages__number:hover {
+  color: #FFA800;
+  border: 2px solid #FFA800;
+}
+
+.RoutesPages__numberActive {
+  color: #FFFFFF;
+  background: #FFA800;
+}
+
+.RoutesPages__numberActive:hover {
+  color: #FFFFFF;
+}

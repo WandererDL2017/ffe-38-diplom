@@ -1,0 +1,128 @@
+.Train {
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+}
+
+.Train__header_trainStart, 
+.Train__header_trainEnd {
+  display: flex;
+  padding: 36px 20px 32px;
+}
+
+.Train__header_end {
+  justify-content: flex-end;
+}
+
+.Train__headerPic_trainStart, 
+.Train__headerPic_trainEnd {
+  width: 76px;
+  height: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Train__headerPic_trainStart {
+  background-image: url('../../img/train/start.png');
+}
+
+.Train__headerPic_trainEnd {
+  background-image: url('../../img/train/end.png');
+}
+
+.Train__header {
+  font-weight: 700;
+  font-size: 1.25em;
+  color: #292929;
+  padding: 40px 0 15px 20px;
+}
+
+.Train__typesContainer {
+  display: flex;
+  padding: 10px 30px 25px;
+}
+
+.Train__typesItem {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Train__typesPic {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+
+.Train__typesPic_fourth {
+  background-image: url('../../img/train/fourthClass.png');
+}
+
+.Train__typesPic_third {
+  background-image: url('../../img/train/thirdClass.png');
+}
+
+.Train__typesPic_second {
+  background-image: url('../../img/train/secondClass.png');
+}
+
+.Train__typesPic_first {
+  background-image: url('../../img/train/firstClass.png')
+}
+
+.Train__typesPic_fourthActive {
+  background-image: url('../../img/train/fourthClassActive.png');
+}
+
+.Train__typesPic_thirdActive {
+  background-image: url('../../img/train/thirdClassActive.png');
+}
+
+.Train__typesPic_secondActive {
+  background-image: url('../../img/train/secondClassActive.png');
+}
+
+.Train__typesPic_firstActive {
+  background-image: url('../../img/train/firstClassActive.png')
+}
+
+.Train__typesName {
+  font-size: 1em;
+  color: #928F94;
+}
+
+.Train__seatsCoaches {
+  height: 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background: rgba(255, 168, 0, 0.44);
+}
+
+.Train__seatsCoachesNumbers {
+  display: flex;
+  font-size: 0.75em;
+}
+
+.Train__seatsCoachNumber {
+  color: #2D2B2F;
+  font-weight: 700;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.Train__seatsCoachNumberActive {
+  color: #FFFFFF;
+}
+
+.Train__seatsCoachesText {
+  font-size: 0.67em;
+}

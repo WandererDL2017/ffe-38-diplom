@@ -1,0 +1,13 @@
+.About__section {
+  padding: 145px 16rem;
+}
+
+.About__header {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.About__content {
+  border-left: 7px solid #FFA800;
+  padding-left: 20px;
+}

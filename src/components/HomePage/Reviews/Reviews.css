@@ -1,0 +1,82 @@
+.Reviews {
+  padding: 9.5rem 16rem 0;
+}
+
+.Reviews__title {
+  font-weight: 500;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.Reviews__container {
+  display: flex;
+}
+
+.Reviews__item {
+  display: flex;
+  align-items: center;
+  width: 46.5%;
+}
+
+.Reviews__item:nth-child(n + 2) {
+  margin-left: 7%;
+}
+
+.Reviews__authorAvatar {
+  width: 33%;
+  height: 8.3em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Reviews__author1 {
+  background-image: url('../../../img/review/author1.jpg');
+}
+
+.Reviews__author2 {
+  background-image: url('../../../img/review/author2.jpg');
+}
+
+.Reviews__box {
+  position: relative;
+  width: 66%;
+  font-size: 0.75em;
+  margin-left: 24px;
+}
+
+.Reviews__authorName {
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.Reviews__text {
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+  font-size: 0.9em;
+  color: #928F94;
+}
+
+.Reviews__controls {
+  display: flex;
+  padding: 8.375rem 0 7.625rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Reviews__control {
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  background-color: #E5E5E5;
+} 
+
+.Reviews__control:nth-child(n + 2) {
+  margin-left: 0.4em;
+}
+
+.Reviews__controlActive {
+  background-color: #C4C4C4;
+}

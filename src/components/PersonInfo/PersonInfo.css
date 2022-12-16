@@ -1,0 +1,285 @@
+.PersonInfo {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 45px;
+}
+
+.PersonInfo__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px 30px 25px;
+  background: #F9F9F9;
+}
+
+.PersonInfo__headerBox {
+  display: flex;
+  align-items: center;
+}
+
+.PersonInfo__openBtnOpened, 
+.PersonInfo__openBtnClosed {
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.PersonInfo__openBtnOpened {
+  background-image: url('../../img/passenger/opened.png');
+}
+
+.PersonInfo__openBtnClosed {
+  background-image: url('../../img/passenger/closed.png');
+}
+
+.PersonInfo__number {
+  margin-left: 5px;
+}
+
+.PersonInfo__deleteBtn {
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../img/passenger/deteteBtn.png');
+}
+
+.PersonInfo__form {
+  padding-top: 38px;
+  border-top: 1px dashed #928F94;
+}
+
+.PersonInfo__choosing {
+  position: relative;
+  width: 280px;
+  height: 50px;
+  padding: 10px 13px;
+  border: 1px solid #928F94;
+  border-radius: 5px; 
+}
+
+.PersonInfo__choosingArrow {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 11.5px;
+  height: 50px;    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../img/passenger/choose.png'); 
+  cursor: pointer;
+}
+
+.PersonInfo__list {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 280px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F5F9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.PersonInfo__documentType {
+  width: auto;
+  font-size: 0.75em;
+  padding-right: 100px;
+  padding-top: 12px;
+}
+
+.PersonInfo__listItem {
+  padding: 7px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.PersonInfo__listItem:hover {
+  color: #FFFFFF;
+  background: #FFCA62;
+}
+
+.PersonInfo__isAdult {
+  margin-left: 30px;
+}
+
+.PersonInfo__formRow {
+  display: flex;
+  padding: 0 30px;
+}
+
+.PersonInfo__formRowName {
+  margin: 45px 0;
+}
+
+.PersonInfo__nameBox {
+  width: 33%;
+}
+
+.PersonInfo__nameBox:nth-child(n+2) {
+  margin-left: 15px;
+}
+
+.PersonInfo__label {
+  display: block;
+  font-size: 0.67em;
+  color: #928F94;
+  margin-bottom: 10px;
+}
+
+.PersonInfo__formControl {
+  font-size: 0.75em;
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  outline: none;
+}
+
+.PersonInfo__formControl::placeholder {
+  color: #C4C4C4;
+}
+
+.PersonInfo__formControlInvalid {
+  color: rgba(255, 61, 0, 0.8);
+  border: 1px solid rgba(255, 61, 0, 0.76);
+}
+
+.PersonInfo__chooseGender {
+  display: flex;
+  font-weight: 900;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  color: #000000;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  margin: 0 35px 45px 0;
+}
+
+.PersonInfo__genderItem {
+  padding: 7px 30px;
+  cursor: pointer;
+}
+
+.PersonInfo__genderItem:first-of-type {
+  border-right: 1px solid #928F94;;
+}
+
+.PersonInfo__genderItemActive {
+  background: #FFA800;
+}
+
+.PersonInfo__checkbox {
+  width: 28px;
+  height: 28px;
+  margin: 0 20px 30px 0;
+}
+
+.PersonInfo__text {
+  font-size: 0.75em;
+  padding-top: 3px;
+}
+
+.PersonInfo__formRowDocs {
+  padding: 35px 30px;
+  border-top: 1px dashed #928F94;
+  border-bottom: 1px dashed #928F94;
+}
+
+.PersonInfo__docsBox {
+  margin-left: 30px;
+}
+
+.formcontrolPassort {
+  width: 205px;
+  font-size: 1em;
+  letter-spacing: 10px;
+}
+
+.formcontrolСertificate {
+  width: 207px;
+  position: relative;
+}
+
+.formcontrolСertificatePlaceholder {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 0.67em;
+  line-height: 0.5em;
+  color: #C4C4C4;
+}
+
+.addPassenger {
+  width: 12.79px;
+  height: 12.79px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../img/passenger/add.png'); 
+  cursor: pointer;
+}
+
+.PersonInfo__btnBoxFormComplete {
+  background: #B2F6A1;
+  justify-content: space-between;
+}
+
+.PersonInfo__completeBox {
+  display: flex;
+  align-items: center;
+}
+
+.PersonInfo__errorBox {
+  display: flex;
+  align-items: center;
+  font-size: 0.75em;
+  padding: 35px 0;
+  background: rgba(255, 61, 0, 0.38);
+}
+
+.PersonInfo__errorPic, 
+.PersonInfo__completePic {
+  width: 32px;
+  height: 32px;
+  margin: 0 16px 0 24px;
+}
+
+.PersonInfo__errorPic {
+  background-image: url('../../img/passenger/error.png');
+}
+
+.PersonInfo__completePic {
+  background-image: url('../../img/passenger/ok.png');
+}
+
+.PersonInfo__completeText {
+  color: #FFFFFF;
+  font-size: 0.75em;
+}
+
+.PersonInfo__example {
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.PersonInfo__completeBtn {
+  background: #B2F6A1;
+}
+
+.PersonInfo__btnBox {
+  padding: 37px 30px 28px;
+}
+
+.PersonInfo__btn {
+  width: 323px;
+  height: 60px;
+  margin-top: 71px;
+  border-radius: 5px;
+  color: #FFFFFF;
+}

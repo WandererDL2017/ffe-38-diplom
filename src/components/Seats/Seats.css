@@ -1,0 +1,12 @@
+.Seats {
+  display: flex;
+  flex-direction: column;
+}
+
+.Seats__header {
+  font-weight: 500;
+  font-size: 1.25em;
+  text-transform: uppercase;  
+  color: #000000;
+  margin: 0 0 48px;
+}

@@ -1,0 +1,162 @@
+.Footer {
+  background: #2D2B2F;
+  color: #FFFFFF;
+}
+
+.Footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 16rem;
+}
+
+.Footer__title {
+  font-size: 1.25em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.Footer__contactsList, 
+.socialLink {
+  list-style: none;
+  padding: 0;
+}
+
+.Footer__contactsItem {
+  display: flex;
+  margin-top: 1.25em;
+}
+
+.Footer__contactsItemPicture {
+  width: 1.25em;
+  height: 1.25em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.phone {
+  background-image: url('../../img/footer/phone.png');
+}
+
+.mail {
+  background-image: url('../../img/footer/mail.png');
+}
+
+.skype {
+  background-image: url('../../img/footer/skype.png');
+}
+
+.address {
+  background-image: url('../../img/location.svg');
+}
+
+.Footer__contactsItemText {
+  margin-left: 35px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #E5E5E5; 
+}
+
+.Footer__subscription {
+  margin-left: 13%;
+}
+
+.Footer__form {
+  margin: 1.25em 0 1.8em;
+}
+
+.Footer__formText {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #E5E5E5;
+}
+
+.Footer__formInput {
+  font-size: 1em;
+  padding: 0.7em 21px;
+  border-radius: 3px;
+}
+
+.Footer__socialLinks {
+  display: flex;
+  padding: 0;
+}
+
+.socialLinkItem {
+  display: block;
+  width: 50px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 30px;
+}
+
+.youtube {
+  background-image: url('../../img/footer/youTube.png');
+}
+
+.youtube:active {
+  background-image: url('../../img/footer/youTubeActive.png');
+}
+
+.linkedin {
+  background-image: url('../../img/footer/linkedin.png');
+}
+
+.linkedin:active {
+  background-image: url('../../img/footer/linkedinActive.png');
+}
+
+.googlePlus {
+  background-image: url('../../img/footer/googlePlus.png');
+}
+
+.googlePlus:active {
+  background-image: url('../../img/footer/googlePlusActive.png');
+}
+
+.facebook {
+  background-image: url('../../img/footer/facebook.png');
+}
+
+.facebook:active {
+  background-image: url('../../img/footer/facebookActive.png');
+}
+
+.twitter {
+  background-image: url('../../img/footer/twitter.png');
+}
+
+.twitter:active {
+  background-image: url('../../img/footer/twitterActive.png');
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 16rem 33px;
+  border-top: 1px solid #E5E5E5;
+}
+
+.Footer__logo {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.up {
+  width: 1.5em;
+  height: 1.5em;
+  background-image: url('../../img/footer/up.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

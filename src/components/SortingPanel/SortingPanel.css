@@ -1,0 +1,54 @@
+.SortingPanel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 0.75em;
+  color: #928F94;
+}
+
+.SortingPanel__box {
+  display: flex;
+  align-items: baseline;
+}
+
+.SortingPanel__sortBy {
+  position: relative;
+  width: 100px;
+  margin-left: 5px;
+  color: #2D2B2F;
+}
+
+.SortingPanel__list {
+  position: absolute;
+  top: -7px;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F5F9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.SortingPanel__item {
+  padding: 7px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.SortingPanel__item:hover {
+  color: #FFFFFF;
+  background: #FFCA62;
+}
+
+.SortingPanel__limitsBox {
+  margin-left: 5px;
+}
+
+.SortingPanel__limitNumber {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.SortingPanel__choosenSortItem {
+  color: #2D2B2F;
+}

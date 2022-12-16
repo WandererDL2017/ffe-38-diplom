@@ -9,6 +9,7 @@ import DatePicker, { registerLocale } from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
 import ru from 'date-fns/locale/ru';
+import links from '../../../data/links';
 
 registerLocale('ru', ru);
 
@@ -43,7 +44,7 @@ function HeaderForm(props) {
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    navigate('/tickets');
+    navigate(links.tickets);
     dispatch(fetchRoutes(routeSet));
     dispatch(fetchLastRoutes());
   };

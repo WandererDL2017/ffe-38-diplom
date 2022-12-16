@@ -11,6 +11,7 @@ import { fetchOrder, setTotalPrice } from '../../actions/actionCreators';
 
 import Info from '../Info';
 import './Verify.css';
+import links from '../../data/links';
 
 function Verify() {
   const { route, quantity, choosenSeats } = useSelector((state) => state.seats);
@@ -135,7 +136,7 @@ function Verify() {
       },
     };
     const callback = () => {
-      navigate('/successOrder');
+      navigate(links.successOrder);
     };
 
     dispatch(fetchOrder(data, callback));

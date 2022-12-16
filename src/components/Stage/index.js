@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import './Stage.css';
+import links from '../../data/links';
 
 function Stage(props) {
   const navigate = useNavigate();
@@ -7,13 +8,13 @@ function Stage(props) {
 
   const goThere = (number) => {
     if (number === 1) {
-      navigate('/tickets');
+      navigate(links.tickets);
     } else if (number === 2 && stage > '1') {
-      navigate('/passengers');
+      navigate(links.passengers);
     } else if (number === 3 && stage > '2') {
-      navigate('/paying');
+      navigate(links.paying);
     } else if (number === 3 && stage > '2') {
-      navigate('/verify');
+      navigate(links.verify);
     }
   };
 

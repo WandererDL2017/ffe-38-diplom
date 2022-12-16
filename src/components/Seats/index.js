@@ -11,6 +11,7 @@ import { fetchSeats, setInfo } from '../../actions/actionCreators';
 import Info from '../Info';
 import Loading from '../Loading';
 import './Seats.css';
+import links from '../../data/links';
 
 function Seats() {
   const { route, loadingStatus, choosenSeats } = useSelector((state) => state.seats);
@@ -33,7 +34,7 @@ function Seats() {
 
   const goNext = () => {
     if (choosenSeats.length > 0) {
-      navigate('/passengers');
+      navigate(links.passengers);
     } else {
       dispatch(setInfo(
         'Необходимо выбрать хотя бы одно место.',

@@ -8,6 +8,7 @@ import TripDetails from '../TripDetails';
 import { changeUserField, setInfo } from '../../actions/actionCreators';
 import Info from '../Info';
 import './Paying.css';
+import links from '../../data/links';
 
 function Paying() {
   const {
@@ -66,7 +67,7 @@ function Paying() {
   const goNext = () => {
     const check = checkingForm();
     if (check) {
-      navigate('/verify');
+      navigate(links.verify);
     }
   };
 

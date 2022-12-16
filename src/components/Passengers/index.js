@@ -8,6 +8,7 @@ import TripDetails from '../TripDetails';
 import PersonInfo from '../PersonInfo';
 import { setInfo, setNewPassenger } from '../../actions/actionCreators';
 import Info from '../Info';
+import links from '../../data/links';
 
 function Passengers() {
   const { quantity } = useSelector((state) => state.seats);
@@ -69,7 +70,7 @@ function Passengers() {
         'info',
       ));
     } else {
-      navigate('/paying');
+      navigate(links.paying);
     }
   };
 

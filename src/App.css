@@ -184,7 +184,12 @@ body {
 }
 
 .leftPanel .formControl {
-  width: 18.44rem;
+  width: 295px;
+}
+
+.TripTools__section .dateInput::before {
+  right: 40px;
+  top: 25%;
 }
 
 /* customRadio */

@@ -5,6 +5,7 @@ import { clearOrder, clearPassengers, clearSeats } from '../../actions/actionCre
 import Footer from '../Footer';
 import Menu from '../Header/Menu';
 import './SuccessOrder.css';
+import links from '../../data/links';
 
 function SuccessOrder() {
   const { totalPrice } = useSelector((state) => state.order);
@@ -21,7 +22,7 @@ function SuccessOrder() {
   };
 
   const backHome = () => {
-    navigate('/');
+    navigate(links.main);
     dispatch(clearOrder());
     dispatch(clearPassengers());
     dispatch(clearSeats());

@@ -4,6 +4,7 @@ import { format } from 'date-fns';
 import AvailableSeats from '../AvailableSeats';
 import { setTrain } from '../../actions/actionCreators';
 import './Routes.css';
+import links from '../../data/links';
 
 function Routes() {
   const { routes } = useSelector((state) => state.routeSettings);
@@ -12,7 +13,7 @@ function Routes() {
 
   const chooseTrain = (route) => {
     dispatch(setTrain(route));
-    navigate('/seats');
+    navigate(links.seats);
   };
 
   return (

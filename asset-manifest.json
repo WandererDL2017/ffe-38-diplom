@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ffe-38-diplom/static/css/main.7bd2011c.css",
+    "main.js": "/ffe-38-diplom/static/js/main.9fcf5f1e.js",
+    "static/media/mainPic.png": "/ffe-38-diplom/static/media/mainPic.37330d37f302fe7783a4.png",
+    "static/media/mainHeaderTrain.jpg": "/ffe-38-diplom/static/media/mainHeaderTrain.b1721fdf92e32a388fd5.jpg",
+    "static/media/secondaryHeaderTrain.jpg": "/ffe-38-diplom/static/media/secondaryHeaderTrain.72ed2a0d85f86c94e913.jpg",
+    "static/media/howItWorks.jpg": "/ffe-38-diplom/static/media/howItWorks.4d47ce9f0395406d3149.jpg",
+    "static/media/author2.jpg": "/ffe-38-diplom/static/media/author2.4946007db8a16439ba1e.jpg",
+    "static/media/author1.jpg": "/ffe-38-diplom/static/media/author1.b334954dcc2c916689c5.jpg",
+    "static/media/4class.png": "/ffe-38-diplom/static/media/4class.02cba78159e47ac0d231.png",
+    "static/media/123class.png": "/ffe-38-diplom/static/media/123class.218b5a080df01a3348a9.png",
+    "static/media/calendar.svg": "/ffe-38-diplom/static/media/calendar.708a9b513c8caf1e47f6.svg",
+    "index.html": "/ffe-38-diplom/index.html",
+    "static/media/location.svg": "/ffe-38-diplom/static/media/location.03e30c307fd8c34dbd21.svg",
+    "main.7bd2011c.css.map": "/ffe-38-diplom/static/css/main.7bd2011c.css.map",
+    "main.9fcf5f1e.js.map": "/ffe-38-diplom/static/js/main.9fcf5f1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bd2011c.css",
+    "static/js/main.9fcf5f1e.js"
+  ]
+}

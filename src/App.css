@@ -14,6 +14,11 @@ body {
   box-sizing: border-box;
 }
 
+#root {
+  max-width: 1920px;
+  margin: auto;
+}
+
 .visually-hidden, 
 .react-datepicker__day-names {
   width: 1px;
